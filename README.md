@@ -24,7 +24,7 @@ The Ur/Web compiler also produces very efficient object code that does not use g
 
 Here's a simple example of compiling, running, and accessing an application included with the Ur/Web distribution.
 
-```sh
+```
 urweb demo/hello
 demo/hello.exe &
 wget http://localhost:8080/Hello/main -O -
